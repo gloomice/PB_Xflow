@@ -1,0 +1,3 @@
+/* 应用图标资源，供 windres 编译；需同目录下存在 lflogo.ico
+ * IDI_APPICON=201 与 pb_fast_copy_gui_v123.cpp 中 LoadAppIcon 一致 */
+201 ICON "lflogo.ico"

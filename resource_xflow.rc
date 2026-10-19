@@ -1,0 +1,31 @@
+/* PB X-Flow engine resources: icon + VERSIONINFO (V123) */
+1 ICON "lflogo.ico"
+
+1 VERSIONINFO
+ FILEVERSION    1,2,3,0
+ PRODUCTVERSION 1,2,3,0
+ FILEFLAGSMASK  0x3fL
+ FILEFLAGS      0x0L
+ FILEOS         0x40004L
+ FILETYPE       0x1L
+ FILESUBTYPE    0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName",      "Wuhan Linkleading"
+            VALUE "FileDescription",  "PB X-Flow High-Speed Copy Engine"
+            VALUE "FileVersion",      "1.2.3.0"
+            VALUE "InternalName",     "pb_xflow"
+            VALUE "LegalCopyright",   "Copyright (C) 2025-2026 Wuhan Linkleading"
+            VALUE "OriginalFilename", "pb_xflow.exe"
+            VALUE "ProductName",      "PB X-Flow"
+            VALUE "ProductVersion",   "1.2.3.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1200
+    END
+END
